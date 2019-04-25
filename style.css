@@ -78,7 +78,8 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 }
 
 #contact {
-    min-height: 60vh;
+    padding: 70px;
+    min-height: calc(60vh - 70px);
 }
 
 footer {
