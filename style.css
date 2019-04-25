@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
     Page d'accueil
 */
 #home-a {
-    height: 40vh;
+    height: calc(42vh - 35px);
     z-index: -1;
     position: relative;
    }
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 }
 
 #home-b {
-    height: 50vh;
+    height: calc(58vh - 35px);
     z-index: -1;
     position: relative;
    }
@@ -71,9 +71,6 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 #whoami, #service-a, #service-b, #service-c, #gallery {
     padding: 70px;
     min-height: calc(100vh - 70px);
-    /* position: relative;
-    top: 50%;
-    transform: translateY(-50%); */
 }
 
 .container {
