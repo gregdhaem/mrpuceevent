@@ -34,7 +34,7 @@
 
 h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
     font-family: neon;
-    color: #daa520;
+    color: #f39c12;
 }
 /* 
     Page d'accueil
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
     Sections qui suis je, prestations, photos, contact
 */
 
-#whoami, #service-a, #service-b, #service-c, #gallery, #contact {
+#whoami, #service-a, #service-b, #service-c, #gallery {
     min-height: 100vh;
     /* position: relative;
     top: 50%;
@@ -78,3 +78,28 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 .container-fluid {
     width: 100%;
 }
+
+#contact {
+    min-height: 60vh;
+}
+
+footer {
+    background: #000000;
+    color: #fffff0;
+    height: 40vh;
+}
+
+a:hover {
+    -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon 1.5s ease-in-out infinite alternate;
+    animation: neon 1.5s ease-in-out infinite alternate;
+    }
+
+@keyframes neon {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b, 0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffdd1b, 0 0 35px #ffdd1b, 0 0 40px #ffdd1b, 0 0 50px #ffdd1b, 0 0 75px #ffdd1b;
+    }
+  }
