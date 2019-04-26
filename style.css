@@ -37,7 +37,7 @@
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
+h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     font-family: neon;
     color: #f39c12;
 }
