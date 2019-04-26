@@ -145,10 +145,10 @@ a:hover {
 
 @media screen and (max-height: 574px) {
     #contact {
-        min-height: calc(55vh - 70px);
+        min-height: calc(49vh - 70px);
     }
 
     footer {
-        height: 45vh;
+        height: 51vh;
     }
 }
