@@ -65,7 +65,13 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
     position: relative;
     background-image: url(img/abstract-background-blur-342411.jpg);
     background-size: cover;
-   }
+    }
+
+.intro {
+    background: hsla(280, 17%, 7%, 0.5);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
 
 .container-fluid {
     width: 100%;
@@ -78,6 +84,10 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 #whoami, #service-a, #service-b, #service-c, #gallery {
     padding: 70px 0;
     min-height: calc(100vh - 70px);
+}
+
+#service-a img, #service-b img, #service-c img {
+    height: 300px;
 }
 
 .container {
@@ -94,19 +104,19 @@ footer {
     color: #fffff0;
     height: 40vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .menu {
-    grid-column: 1 / 2;
-}
-
-.copyright {
     grid-column: 2 / 3;
 }
 
+.copyright {
+    grid-column: 4 / 5;
+}
+
 .social {
-    grid-column: 3 / 4;
+    grid-column: 6 / 7;
 }
 
 a:hover {
@@ -124,12 +134,42 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 993px) {
+
+    #service-a img, #service-b img, #service-c img {
+        height: 250px;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .menu {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .copyright {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .social {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .logo-a {
         top: 16vh;
         left: 5vw;
         width: 90vw;
         height: auto;
+    }
+    #service-a img, #service-b img, #service-c img {
+        height: 200px;
     }
 
     footer {
