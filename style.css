@@ -125,6 +125,13 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+    .logo-a {
+        top: 16vh;
+        left: 5vw;
+        width: 90vw;
+        height: auto;
+    }
+
     footer {
         grid-template-columns: 1fr 1fr;
     }
