@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 */
 
 #whoami, #service-a, #service-b, #service-c, #gallery {
-    padding: 70px;
+    padding: 70px 0;
     min-height: calc(100vh - 70px);
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning {
 }
 
 #contact {
-    padding: 70px;
+    padding: 70px 0;
     min-height: calc(60vh - 70px);
 }
 
