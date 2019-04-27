@@ -109,7 +109,7 @@ footer {
 }
 
 .menu {
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
 }
 
 .copyright {
@@ -120,7 +120,7 @@ footer {
     grid-column: 6 / 7;
 }
 
-a:hover {
+.social>a:hover, .contact>a:hover {
     -webkit-animation: neon 1.5s ease-in-out infinite alternate;
     -moz-animation: neon 1.5s ease-in-out infinite alternate;
     animation: neon 1.5s ease-in-out infinite alternate;
