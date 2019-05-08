@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 }
 
 #service-a img, #service-b img, #service-c img {
-    height: 300px;
+    height: 250px;
 }
 
 .container {
@@ -120,7 +120,7 @@ footer {
     grid-column: 6 / 7;
 }
 
-.social>a:hover, .contact>a:hover {
+.social>a:hover, .contact>a:hover, .bio>a:hover, .card-footer>a:hover {
     -webkit-animation: neon 1.5s ease-in-out infinite alternate;
     -moz-animation: neon 1.5s ease-in-out infinite alternate;
     animation: neon 1.5s ease-in-out infinite alternate;
