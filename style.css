@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     }
 
 .intro {
-    background: hsla(280, 17%, 7%, 0.5);
+    background: hsla(280, 17%, 7%, 0.7);
     padding: 5px 5px;
     margin: 5px 5px;
     border-radius: 5px;
