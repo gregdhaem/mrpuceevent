@@ -137,6 +137,10 @@ footer {
 
 @media screen and (max-width: 993px) {
 
+    :root {
+        scroll-behavior: unset;
+    }
+    
     #service-a img, #service-b img, #service-c img {
         height: 250px;
     }
