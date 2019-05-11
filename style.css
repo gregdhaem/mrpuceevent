@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 
 .container-fluid {
     width: 100%;
+    z-index: -1;
 }
 
 /* 
@@ -94,10 +95,6 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 
 #service-a img, #service-b img, #service-c img {
     height: 250px;
-}
-
-.container {
-    width: 100%;
 }
 
 #gallery {
