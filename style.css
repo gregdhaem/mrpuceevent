@@ -104,8 +104,9 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     padding-left: 0.125em;
     padding-right: 0.125em;
 }
+
 #contact {
-    padding: 70px 0;
+    /* padding: 70px 0; */
     min-height: calc(60vh - 70px);
 }
 
