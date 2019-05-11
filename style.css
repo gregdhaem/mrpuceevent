@@ -41,6 +41,11 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     font-family: neon;
     color: #f39c12;
 }
+
+.bold {
+    color: #f39c12;
+    font-weight: bold;
+}
 /* 
     Page d'accueil
 */
@@ -95,6 +100,9 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     width: 100%;
 }
 
+#gallery {
+    padding: 0 0.125em;
+}
 #contact {
     padding: 70px 0;
     min-height: calc(60vh - 70px);
