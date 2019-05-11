@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 footer {
     background: #000000;
     color: #fffff0;
-    height: 40vh;
+    height: 35vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
