@@ -8,6 +8,7 @@
 
 :root {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .container-fluid {
@@ -94,9 +95,10 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 footer {
     background: #000000;
     color: #fffff0;
-    min-height: 200px;
+    height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 
 .menu {
