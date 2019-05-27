@@ -12,8 +12,7 @@
 }
 
 .container-fluid {
-    width: 100vw;
-    padding: 0 0;
+    padding: 0 1rem;
     margin: 0 0;
 }
 
@@ -68,7 +67,6 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 
 #QuiSuisJe, #Entreprises, #Mariages, #Anniversaires, #GalleriePhotos {
     padding: 70px 0;
-    margin: 0 1rem;
     min-height: calc(100vh - 70px);
 }
 
@@ -90,6 +88,10 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
 #Contact {
     padding-top: 70px;
     min-height: calc(100vh - 200px);
+}
+
+#Contact a {
+    color: #fffff0;
 }
 
 footer {
