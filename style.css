@@ -8,7 +8,7 @@
 
 :root {
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .container-fluid {
