@@ -8,9 +8,9 @@
 
 :root {
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
 }
 
+/* pour debuguer les divs */
 /* * {
     border: 1px solid red;
 } */
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     color: #f39c12;
     font-weight: bold;
 }
+
 /* 
     Page d'accueil
 */
@@ -64,11 +65,9 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     width: 70vw;
 }
 
-
 /* 
     Sections qui suis je, prestations, photos, contact
 */
-
 #QuiSuisJe, #Entreprises, #Mariages, #Anniversaires, #GalleriePhotos {
     padding: 70px 0;
     min-height: calc(100vh - 70px);
@@ -89,6 +88,7 @@ h1, h2, h3, h4, h5, h6, .nav-item.nav-link.text-warning, .menu a {
     scroll-behavior: unset;
 }
 
+
 #Contact {
     padding-top: 70px;
     min-height: calc(100vh - 200px);
@@ -104,7 +104,6 @@ footer {
     height: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
 }
 
 .menu {
