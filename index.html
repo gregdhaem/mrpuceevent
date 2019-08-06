@@ -27,7 +27,9 @@
 </head>
 
 <body>
-
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
     <!--home-a (page d'accueil) section a partie logo Mr Puce Event-->
     <div id="home-a">
         <img class="logo-a" src="img/coollogo_com-16580475.png" alt="Logo de Mister Puce Event">
@@ -64,7 +66,7 @@
 
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link text-warning" href="#GalleriePhotos">Photos / Témoignages</a>
+                    <a class="nav-link text-warning" href="#GalleriePhotos">Photos / Médias</a>
 
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -90,11 +92,12 @@
         <main>
             <!--Section Qui suis je ? / Bio-->
             <section id="QuiSuisJe">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-1 col-xl-2">
                     </div>
                     <div class="col-md-12 col-lg-10 col-xl-8">
-                        <h1 class="h2">Mister Puce Event DJ Compositeur</h1>
+                        <h1 class="d-none">Mister Puce Event DJ Compositeur Disco 80s annimations musicales</h1>
+                        <h2 class="h2">Mr Puce</h2>
                         <div class="row">
                             <div class="col-lg-6 col-xl-7">
                                 <div>
@@ -286,7 +289,8 @@
                     <div class="col-lg-1 col-xl-2">
                     </div>
                     <div class="col-lg-10 col-xl-8">
-                        <h2>Photos / Témoignages</h2>
+                        <h2>Photos / Médias</h2>
+                        <h3 class="h4 text-center">Gallerie Photos</h3>
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -315,30 +319,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row mb-5">
+                    <div class="col-md-3">
                     </div>
-                    <div class="col-md-4 d-flex align-items-center justify-content-center">
-                        <iframe class="soundcloud"
-                            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/457317741&color=%23f39c12&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
-                        </iframe>
+                    <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="h4 text-center">Facebook</h3>
+                        <div class="fb-page" data-href="https://www.facebook.com/MRPUCEOFFICIEL/" data-tabs=""
+                            data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true"
+                            data-hide-cover="false" data-show-facepile="false">
+                            <blockquote cite="https://www.facebook.com/MRPUCEOFFICIEL/" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/MRPUCEOFFICIEL/">Mr Puce</a></blockquote>
+                        </div>
                     </div>
                 </div>
+                <div class="row mb-5">
+                    <div class="col-md-4">
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+                        <h3 class="h4 text-center">Soundcloud</h3>
+                        <div class="soundcloud">
+                            <iframe class="soundcloud"
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/457317741&color=%23f39c12&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+
 
             </section>
             <!--Section Me Contacter-->
             <section id="Contact">
-
                 <div class="row">
                     <div class="col">
                     </div>
                     <div class="col">
                         <h2 class="text-center">Me contacter</h2>
-
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="contact d-flex flex-column align-items-center justify-content-center my-3">
-                                    <a 
+                                    <a
                                         href="mailto:guillaumebay78@gmail.com ?subject=Demande d'informations depuis le site www.mrpuceevent.com &body=Mr Puce,">
                                         <i class="fas fa-2x fa-envelope-open-text mb-2"></i>
                                     </a>
@@ -354,14 +373,10 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="col">
-
                     </div>
                 </div>
-
-
             </section>
         </main>
     </div>
@@ -379,7 +394,7 @@
             <a class="text-warning" href="#Contact">Me contacter</a>
         </div>
         <div class="copyright d-flex align-items-center justify-content-center">
-            <p class="text-center">&copy; GPDH - 2019</p>
+            <p class="text-center">GPDH - 2019</p>
         </div>
         <div class="social d-flex justify-content-end mt-2 px-2">
             <a class="text-warning mx-2 my-2" href="https://soundcloud.com/mrpuce" target="_blank">
@@ -393,7 +408,9 @@
             </a>
         </div>
     </footer>
-
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.3&appId=319313498837119&autoLogAppEvents=1"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
         </script>
